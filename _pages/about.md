@@ -17,8 +17,8 @@ During his undergraduate study, he studied Statistics under [Pak Sutawanir Darwi
 
 He took his master study in Software Engineering. Furthermore, his master thesis explored [_Latent Semantic Indexing_](https://en.wikipedia.org/wiki/Latent_semantic_analysis) and his advisor was [Pak Rila Mandala](https://itb.ac.id/staf/profil/rila-mandala).     
    
-His interest in Machine Learning started when he took [Stanford Machine Learning course by Andrew Ng in Coursera](https://youtu.be/gb262LDH1So?si=QujlL3a4av5eyBoa). The way Andrew Ng taught has inspired him and since then he have been learning machine learning and its applications until now.      
-   
+His interest in Machine Learning started when he took [Stanford Machine Learning course by Andrew Ng in Coursera](https://youtu.be/gb262LDH1So?si=QujlL3a4av5eyBoa). The way Andrew Ng taught has inspired him and since then he have been learning machine learning and its applications until now. Additionally, [Nanodegree program at Udacity](https://www.udacity.com/course/deep-learning-nanodegree--nd101) has solidified his understanding about Machine Learning and Deep Learning.       
+     
 Moreover, Hendra Bunyamin has taken two certifications in AI in Huawei and NVIDIA. He is a Huawei Academy Certified Instructor and NVIDIA Instructor.
 
 
