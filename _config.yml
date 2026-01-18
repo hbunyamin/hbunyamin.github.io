@@ -29,7 +29,7 @@ author:
   bio              : "A Forgiven Sinner, an associate professor"
   location         : "Bandung, Jawa Barat"
   employer         : "Universitas Kristen Maranatha"
-  uri              : "https://www.maranatha.edu/"
+  uri              : # none
   email            : "hendra.bunyamin@it.maranatha.edu" 
 
   # Academic websites
@@ -57,7 +57,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "hbunyamin" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
