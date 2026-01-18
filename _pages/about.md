@@ -19,7 +19,7 @@ He took his master study in Software Engineering. Furthermore, his master thesis
    
 His interest in Machine Learning started when he took [Stanford Machine Learning course by Andrew Ng in Coursera](https://youtu.be/gb262LDH1So?si=QujlL3a4av5eyBoa). The way Andrew Ng taught has inspired him and since then he have been learning machine learning and its applications until now. Additionally, [Nanodegree program at Udacity](https://www.udacity.com/course/deep-learning-nanodegree--nd101) has solidified his understanding about Machine Learning and Deep Learning.       
      
-Moreover, Hendra Bunyamin has taken two certifications in AI in Huawei and NVIDIA. He is a Huawei Academy Certified Instructor and NVIDIA Instructor.
+Moreover, Hendra Bunyamin has taken two certifications in AI in Huawei and NVIDIA. He is a [Huawei Academy Certified Instructor](https://maranathaedu-my.sharepoint.com/:b:/g/personal/hendra_bunyamin_it_maranatha_edu/EeP6VPTQcoJFmBh0vqCoDJgB4znritavqB2ZVjGfeEIWSA?e=LmHW8G) and [NVIDIA Instructor](https://learn.nvidia.com/certificates?id=dOrmP67UTOGeV1_vohFGSQ).
 
 
 
