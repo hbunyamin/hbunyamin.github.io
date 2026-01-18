@@ -26,24 +26,24 @@ author:
   avatar           : "profile-hendra.jpg"
   name             : "Hendra Bunyamin"
   pronouns         : "him" # example: "she/her"  
-  bio              : "A Forgive Sinner and an Associate Professor at Universitas Kristen Maranatha"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  bio              : "A Forgiven Sinner, an Associate Professor"
+  location         : "Bandung, Jawa Barat"
+  employer         : "Universitas Kristen Maranatha"
+  uri              : "https://www.maranatha.edu/"
+  email            : "hendra.bunyamin@it.maranatha.edu" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=bpV7qqoAAAAJ&hl=en"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0002-5150-4394"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
-  scopus           : # URL
+  scopus           : "https://www.scopus.com/authid/detail.uri?authorId=57191905935"
   zotero           : # URL
 
 
