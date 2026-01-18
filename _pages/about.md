@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "My Never Ending Journey to Being an Independent Researcher"
+title: "A Journey to Being an Independent Researcher"
 author_profile: true
 redirect_from: 
   - /about/
