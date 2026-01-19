@@ -23,7 +23,7 @@ repository               : "hbunyamin/hbunyamin.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile-hendra.jpg"
+  avatar           : "nvidia.jpg"
   name             : "Hendra Bunyamin"
   pronouns         : "him" # example: "she/her"  
   bio              : "A Forgiven Sinner, an Associate Professor"
