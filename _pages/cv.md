@@ -22,10 +22,10 @@ Work experience
   
 Skills
 ======
-* I am grateful that I get acquainted with these three things:
-  * Linux
-  * LaTeX
-  * GPU
+* I am grateful that I get acquainted with these three things, that are:
+  * Linux,
+  * LaTeX, and
+  * GPU.
 
 Publications
 ======
