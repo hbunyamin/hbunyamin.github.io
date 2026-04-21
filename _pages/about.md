@@ -21,6 +21,6 @@ His interest in Machine Learning started when he took [Stanford Machine Learning
      
 Moreover, Hendra Bunyamin has taken two certifications in AI in Huawei and NVIDIA. He is a [Huawei Academy Certified Instructor](https://maranathaedu-my.sharepoint.com/:b:/g/personal/hendra_bunyamin_it_maranatha_edu/EeP6VPTQcoJFmBh0vqCoDJgB4znritavqB2ZVjGfeEIWSA?e=LmHW8G) and [NVIDIA Instructor](https://learn.nvidia.com/certificates?id=dOrmP67UTOGeV1_vohFGSQ).     
     
-This website also features blogs on Mathematics, Machine Learning, and Statistics. The blogs are available in the language indicated in their titles. Blog titles beginning with "EN" are written in English, while those beginning with "ID" are written in Indonesian. I hope you enjoy the blogs as much as I enjoy writing them. Cheers!
+This website also features [blogs on Mathematics, Machine Learning, and Statistics](https://hbunyamin.github.io/year-archive/). The blogs are available in the language indicated in their titles. Blog titles beginning with "EN" are written in English, while those beginning with "ID" are written in Indonesian. I hope you enjoy the blogs as much as I enjoy writing them. Cheers!
 
 
