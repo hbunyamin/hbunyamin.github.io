@@ -24,7 +24,7 @@ Skills
 ======
 * I am grateful that I get acquainted with these three things, that are:
   * Linux,
-  * LaTeX, and
+  * \\(\LaTeX\\), and
   * GPU.
 
 Publications
