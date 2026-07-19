@@ -3,7 +3,7 @@ title: "Predicting Hospital Patient Readmission by Analyzing Electronic Health R
 collection: publications
 category: manuscripts
 permalink: # none
-excerpt: # none
+excerpt: "This research employs eleven machine learning algorithms to predict patient hospital readmissions from historical data while also identifying the most influential features for that prediction."
 date: 2024-10-01
 venue: 'Eurasian Journal of Mathematical and Computer Applications'
 paperurl: 'https://ejmca.enu.kz/assets/files/12-4-3.pdf'
