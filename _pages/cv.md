@@ -23,7 +23,7 @@ Work experience
 Skills
 ======
 * I am grateful that I get acquainted with these three things, that are:
-  * Linux,
+  * Linux :penguin:,
   * \\(\LaTeX\\), and
   * GPU.
 
