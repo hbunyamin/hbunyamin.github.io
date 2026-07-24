@@ -3,6 +3,7 @@ title: "Interpretable Machine Learning"
 collection: talks
 type: "Talk"
 permalink: none
+excerpt: 'This talk discusses machine learning concepts and the interpretability of machine learning models'
 venue: "Global Learning System (GLS) Binus University"
 date: 2020-11-17
 location: "Online"
@@ -17,6 +18,5 @@ The description of [the talk](https://maranathaedu-my.sharepoint.com/my?id=%2Fpe
 6. A Machine Learning Component: Cost/Lost Function
 7. A Machine Learning Component: Optimization Algorithm
 8. Demo Time
-9. Interpretability
-10. Interpretable Models & An Example
-- 
+9. Interpretability  
+10. Interpretable Models & An Example 
