@@ -9,13 +9,4 @@ date: 2026-02-01
 location: "Bandung, Indonesia"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+Perkuliahan ini mengikuti flow dari buku [**Larson**](https://a.co/d/0bfIeV5o).
