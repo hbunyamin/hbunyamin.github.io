@@ -2,6 +2,7 @@
 title: '[ID] Contoh Pembuktian Ruang Vektor dengan sangat Detil'
 date: 2019-03-22
 permalink: /posts/2019/03/blog-post-5/
+excerpt: "Sepuluh aksioma digunakan untuk membuktikan suatu Ruang Vektor." 
 tags:
   - linear algebra
   - vector space
