@@ -47,4 +47,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently the Head of Tim Penjamin Mutu Fakultas Teknologi dan Rekayasa Cerdas
+* Currently the member of Tim Penjamin Mutu Fakultas Teknologi dan Rekayasa Cerdas for Informatics department.
