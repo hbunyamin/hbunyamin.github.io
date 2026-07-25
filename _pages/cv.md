@@ -25,7 +25,7 @@ Skills
 * I am grateful that I get acquainted with these three things, that are:
   * Linux :penguin:,
   * \\(\LaTeX\\), and
-  * GPU.
+  * GPU :zap:
 
 Publications
 ======
