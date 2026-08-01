@@ -10,13 +10,13 @@ tags:
 
 This post is inspired by [the lecture given by David Blei](http://www.cs.columbia.edu/~blei/fogm/2020F/index.html) on Thursday, 17 September 2020. One of the topics he explained was related to a **_categorical variable_** and a **_categorical distribution_**. This post will elaborate those two concepts. Let's get started.
 
-[![img1]({{ site.baseurl }}/assets/images/one-hot-encoding.png){:class="img-responsive"}]({{ site.baseurl }}/assets/images/one-hot-encoding.png)*<center>$\pmb{\text{Figure 1}}$: A categorical variable ( $\text{Color}$) and its values ( $\text{Red}$, $\text{Yellow}$, and $\text{Green}$ ). Image taken from <a href="https://www.kaggle.com/alexisbcook/categorical-variables">Kaggle</a>, some rights reserved.</center>*
+[![img1]({{ site.baseurl }}/assets/images/one-hot-encoding.png){:class="img-responsive"}]({{ site.baseurl }}/assets/images/one-hot-encoding.png)*<center>\\(\pmb{\text{Figure 1}}\\): A categorical variable ( \\(\text{Color}\\)) and its values ( \\(\text{Red}\\), \\(\text{Yellow}\\), and \\(\text{Green}\\) ). Image taken from <a href="https://www.kaggle.com/alexisbcook/categorical-variables">Kaggle</a>, some rights reserved.</center>*
 
-$\text{Figure 1}$ shows an example of categorical values stored in a categorical variable, $\text{Color}$. Basically, a categorical variable takes one of $K$ values and each categorical value is represented by a $K$-vector with a single $1$ and otherwise $0$s.    
+\\(\text{Figure 1}\\) shows an example of categorical values stored in a categorical variable, \\(\text{Color}\\). Basically, a categorical variable takes one of \\(K\\) values and each categorical value is represented by a \\(K\\)-vector with a single \\(1\\) and otherwise \\(0\\)s.    
 
-> Let's denote a categorical variable as $x^{(k)}$ which means that the $k$th component of it has a a single $1$ and otherwise $0$s.    
+> Let's denote a categorical variable as \\(x^{(k)}\\) which means that the \\(k\\)th component of it has a a single \\(1\\) and otherwise \\(0\\)s.    
     
-For example, the categorical variable in $\text{Figure 1}$ has $3$ values ( $\text{Red}$, $\text{Yellow}$, and $\text{Green}$ ) and each value  is represented by $3$-vector with a single $1$ and otherwise $0$s as follows:
+For example, the categorical variable in \\(\text{Figure 1}\\) has \\(3\\) values ( \\(\text{Red}\\), \\(\text{Yellow}\\), and \\(\text{Green}\\) ) and each value  is represented by \\(3\\)-vector with a single \\(1\\) and otherwise \\(0\\)s as follows:
 
 $$
   \begin{align}
@@ -26,9 +26,9 @@ $$
   \end{align}
 $$
 
-The $K$-vector with single $1$ and otherwise $0$s is commonly named [**one-hot vector**](https://machinelearningmastery.com/why-one-hot-encode-data-in-machine-learning/).
+The \\(K\\)-vector with single \\(1\\) and otherwise \\(0\\)s is commonly named [**one-hot vector**](https://machinelearningmastery.com/why-one-hot-encode-data-in-machine-learning/).
 
-A **_categorical distribution_** is parameterized by $\theta$. Moreover, $\pmb{\theta}$ **specifies the probability of each categorical value**. Suppose we have $K$ categorical values; therefore, 
+A **_categorical distribution_** is parameterized by \\(\theta\\). Moreover, \\(\pmb{\theta}\\) **specifies the probability of each categorical value**. Suppose we have \\(K\\) categorical values; therefore, 
 
 $$ \begin{equation}
 \theta = (\theta_1, \theta_2, \ldots, \theta_K) \tag{2}\label{eq:theta}
@@ -40,12 +40,12 @@ $$ \begin{equation}
   \sum_{k=1}^{K}{\theta_k} = 1 \text{ and } 0 \leq \theta_k \leq 1 \text{ for }k=1, \ldots, K. \tag{3}\label{eq:theta-constraints}
 \end{equation}$$
 
-Consider that $X^{(k)}$ is a random _categorical_ variable which takes one of $K$ values. Moreover, since $X^{(k)}$ is random variable, it has **_categorical distribution_** that is described by a discrete probability distribution,
+Consider that \\(X^{(k)}\\) is a random _categorical_ variable which takes one of \\(K\\) values. Moreover, since \\(X^{(k)}\\) is random variable, it has **_categorical distribution_** that is described by a discrete probability distribution,
 
 $$ \begin{equation}
   \text{p}(x^{(k)}) = \prod_{l=1}^{K}{\theta_{l}^{x^{(l)}}} \tag{4}\label{eq:pdf-categorical}
 \end{equation}$$  
-with $x^{(l)}$ is the $l$th component of $x^{(k)}$. Additionally, we elaborate Equation \eqref{eq:pdf-categorical} into
+with \\(x^{(l)}\\) is the \\(l\\)th component of \\(x^{(k)}\\). Additionally, we elaborate Equation \eqref{eq:pdf-categorical} into
 
 $$ \begin{align}
   \text{p}(x^{(k)}) &= \prod_{l=1}^{K}{\theta_{l}^{x^{(l)}}} \\
@@ -54,7 +54,7 @@ $$ \begin{align}
                              &= \theta_{k}. \tag{5}\label{eq:pdf-categorical-simplified}
 \end{align}$$
 
-Let's put Equation \eqref{eq:pdf-categorical-simplified} into practice and demonstrate it in one example. Suppose we want to compute $\text{p}(\text{Yellow})$ in Equation \eqref{eq:yellow},
+Let's put Equation \eqref{eq:pdf-categorical-simplified} into practice and demonstrate it in one example. Suppose we want to compute \\(\text{p}(\text{Yellow})\\) in Equation \eqref{eq:yellow},
 
 $$ \begin{align}
   \text{p}(\text{Yellow}) &= \text{p}(x^{(2)}) \\
@@ -65,7 +65,7 @@ $$ \begin{align}
                               &= \theta_{2}.
 \end{align}$$
 
-With Equation \eqref{eq:pdf-categorical-simplified} in hand, we are now ready to compute the _expectation_ of $X^{(k)}$ as
+With Equation \eqref{eq:pdf-categorical-simplified} in hand, we are now ready to compute the _expectation_ of \\(X^{(k)}\\) as
 
 $$ \begin{align}
   \text{E}(X^{(k)}) &= \sum_{l=1}^{K}{x^{(l)} \text{p}(x^{(l)})} \\
@@ -74,14 +74,14 @@ $$ \begin{align}
                     &= \theta_k. \tag{6}\label{eq:expectation}
 \end{align}$$
 
-Next, we compute the Variance, $\text{Var}$, as follows:
+Next, we compute the Variance, \\(\text{Var}\\), as follows:
 
 $$ \begin{align}
   \text{Var}(X^{(k)}) &= \underbrace{\text{E}((X^{(k)})^2)}_{\text{Part I}} - \underbrace{(\text{E}(X^{(k)}))^2}_{\text{Part II}}. & \text{the definition of variance} \tag{7}\label{eq:variance-definition} \\
 
 \end{align}$$
 
-Next, we compute $\text{Part I}$, $\text{E}((X^{(k)})^2)$, as follows:
+Next, we compute \\(\text{Part I}\\), \\(\text{E}((X^{(k)})^2)\\), as follows:
 
 $$ \begin{align}
   \text{E}((X^{(k)})^2) &= \sum_{l=1}^{K}{(x^{(l))^2} \text{p}(x^{(l)})} \\
@@ -98,13 +98,13 @@ $$ \begin{align}
                       &= \theta_k (1 - \theta_k). && \text{using distributive property} \tag{9}\label{eq:variance}
 \end{align}$$
 
-Last but not least, we shall compute the Covariance, $\text{Cov}(X^{(j)}, X^{(k)})$. We start by the definition of Covariance,
+Last but not least, we shall compute the Covariance, \\(\text{Cov}(X^{(j)}, X^{(k)})\\). We start by the definition of Covariance,
 
 $$ \begin{align}
   \text{Cov}(X^{(j)}, X^{(k)}) &= \underbrace{\text{E}(X^{(j)} X^{(k)})}_{\text{Part I}} - \underbrace{(\text{E}(X^{(j)}) E(X^{(k)}))}_{\text{Part II}}. && \text{by definition} \tag{10}\label{eq:covariance}                             
 \end{align}$$
 
-Let's compute the $\text{Part I}$ as follows:
+Let's compute the \\(\text{Part I}\\) as follows:
 
 $$ \begin{align}
   \text{E}(X^{(j)} X^{(k)}) &= (0)(0) \theta_1 + \cdots + \underbrace{(1)(0) \theta_j}_{j\text{th}} + \cdots + \underbrace{(0)(1) \theta_k}_{k\text{th}} + \cdots + (0)(0) \theta_K  \\
