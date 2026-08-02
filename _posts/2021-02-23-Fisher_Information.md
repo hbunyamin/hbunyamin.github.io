@@ -11,9 +11,9 @@ tags:
 
 This post elaborates a derivation of Equation (2.20) on page 53 of [**Bayesian Data Analysis Third Edition**](http://www.stat.columbia.edu/~gelman/book/BDA3.pdf).    
 
-[![img1]({{ site.baseurl }}/assets/images/Youngronaldfisher2.JPG){:class="img-responsive"}]({{ site.baseurl }}/assets/images/Youngronaldfisher2.JPG)*<center>$\pmb{\text{Figure 1}}$: Sir Ronald Aylmer Fisher (17 February 1890 - 29 July 1962). One of his many great contributions to Statistics is <a href="https://en.wikipedia.org/wiki/Fisher_information">Fisher Information</a>. Image taken from <a href="https://en.wikipedia.org/wiki/Ronald_Fisher">Wikipedia</a>, some rights reserved.</center>*   
-
-Concretely, we want to show the derivation $J(\theta)$, the _Fisher Information_, from
+[![img1]({{ site.baseurl }}/assets/images/Youngronaldfisher2.JPG){:class="img-responsive"}]({{ site.baseurl }}/assets/images/Youngronaldfisher2.JPG)\\(\pmb{\text{Figure 1}}\\): Sir Ronald Aylmer Fisher (17 February 1890 - 29 July 1962). One of his many great contributions to Statistics is <a href="https://en.wikipedia.org/wiki/Fisher_information">Fisher Information</a>. Image taken from <a href="https://en.wikipedia.org/wiki/Ronald_Fisher">Wikipedia</a>, some rights reserved.       
+       
+Concretely, we want to show the derivation \\(J(\theta)\\), the _Fisher Information_, from    
 
 $$ \begin{equation}
 	J(\theta) = \text{E}\left( \left( \frac{d \log \Pr(y \mid \theta )}{d\theta} \right)^2 \, \middle| \, \theta \right) \tag{1}\label{eq:start-point}
@@ -53,7 +53,7 @@ $$\begin{equation}
 \end{equation}$$
 
 Therefore,  
-  
+   
 $$\begin{align}
 	\frac{d^2 \log \Pr(y \mid \theta)}{d\theta^2} &= \underbrace{- \frac{1}{\Pr( y \mid \theta )^2} \frac{d \Pr(y \mid \theta)}{d\theta}}_{u^{\prime}} \underbrace{\frac{d \Pr(y \mid \theta)}{d\theta}}_{v}  + \underbrace{\frac{1}{\Pr(y \mid \theta)}}_{u} \underbrace{\frac{d^2 \Pr(y \mid \theta)}{d\theta^2}}_{v^{\prime}} &&  \text{based on } u^{\prime} v + u v^{\prime} \tag{12}\label{eq:second-order-1} \\
 	&= \frac{d^2 \Pr(y \mid \theta)}{d\theta^2} \frac{1}{\Pr(y \mid \theta)} - \left( \frac{d\Pr(y \mid \theta)}{d\theta} \frac{1}{\Pr(y \mid \theta)}  \right) \left( \frac{d\Pr(y \mid \theta)}{d\theta} \frac{1}{\Pr(y \mid \theta)}  \right) && \text{just rearranging} \tag{13}\label{eq:second-order-2} \\
